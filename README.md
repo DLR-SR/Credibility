@@ -6,7 +6,7 @@
 
 Package Credibility is a free Modelica package to add traceability, uncertainty and calibration information to scalar and 1D-table parameters in a standardized way. For details of this library, see also the journal article [Towards Modelica Models with Credibility Information](https://doi.org/10.3390/electronics11172728).
 
-Example for the kind of information that can be added to a scalar parameter value:
+Example for the kind of information that can be added to a scalar parameter value (image is from the article above):
 
 ![SpringConstantCredibilityInfo](Credibility/Resources/Images/SpringConstantCredibility.png)
 
