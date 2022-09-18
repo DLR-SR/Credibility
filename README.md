@@ -12,7 +12,7 @@ Example for the kind of information that can be added to a scalar parameter valu
 
 The Credibility library contains an example of a controlled drive train with scalar and 1D-table parameters with credibility information. This information is then used to demonstrate (for details see the article above):
 
-- _optimization based calibration_ (using the commercial [DLR Optimization Modelica library](https://www.systemcontrolinnovationlab.de/the-dlr-optimization-library/) and
+- _optimization based calibration_ (using the commercial [DLR Optimization Modelica library](https://www.systemcontrolinnovationlab.de/the-dlr-optimization-library/)) and
 - _Monte Carlo simulation_ (demonstrating in particular a new approach for utilizing table-based uncertainty in a Monte Carlo simulation).
 
 ## Main Developers
