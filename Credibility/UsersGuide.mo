@@ -131,9 +131,15 @@ description of any kind is:
 </p>
 
 <ul>
-<li>nominal — the nominal value of the scalar (e.g., determined by calibration).<li>
-<li>lower — the lowest possible value of the uncertain scalar.<li>
-<li>upper — the highest possible value of the uncertain scalar.</li>
+  <li>
+    nominal &ndash; the nominal value of the scalar (e.g., determined by calibration).
+  </li>
+  <li>
+    lower &ndash;  the lowest possible value of the uncertain scalar.
+  </li>
+  <li>
+    upper &ndash; the highest possible value of the uncertain scalar.
+  </li>
 </ul>
 
 <p>
