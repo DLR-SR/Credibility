@@ -68,7 +68,10 @@ parameter. In particular, it contains information regarding
 </p>
 <ul>
   <li>
-    the nominal values as [:,2] array (first column: abscissa, second column: ordinate values).
+    the nominal values as [:,2] array (first column: abscissa, second column:
+    ordinate values), see also
+    <a href=\"modelica://Credibility.UsersGuide.ParameterCredibility.UncertaintyInfo\">User&apos;s Guide</a>
+    &ndash; &quot;Array uncertainty&quot;.
   </li>
   <li>
     traceability,

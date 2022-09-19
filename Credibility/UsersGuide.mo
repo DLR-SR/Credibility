@@ -124,23 +124,31 @@ specified with an uncertainty description.
 </p>
 
 <p>
-Every physical quantity has inherent limits. Therefore, the upper and lower limits of
-a scalar value need to be defined, independent of the kind of the mathematical description
-of the uncertainty. For this reason, the minimum information to be provided for a scalar parameter with an uncertainty
-description of any kind is:
+Every physical quantity has inherent limits. Therefore, the upper and lower limits
+of a&nbsp;scalar value need to be defined, independent of the kind of the mathematical
+description of the uncertainty. For this reason, the minimum information to be
+provided for a&nbsp;scalar parameter with an uncertainty description of any kind is:
 </p>
 
 <ul>
-<li>nominal — the nominal value of the scalar (e.g., determined by calibration).<li>
-<li>lower — the lowest possible value of the uncertain scalar.<li>
-<li>upper — the highest possible value of the uncertain scalar.</li>
+  <li>
+    nominal &ndash; the nominal value of the scalar (e.g., determined by calibration).
+  </li>
+  <li>
+    lower &ndash;  the lowest possible value of the uncertain scalar.
+  </li>
+  <li>
+    upper &ndash; the highest possible value of the uncertain scalar.
+  </li>
 </ul>
 
 <p>
 Often, it is inconvenient to provide absolute ranges and instead, relative or absolute
-deviations are more practical. In the <a href=\"https://emphysis.github.io/pages/downloads/efmi_specification_1.0.0-alpha.4.html\">eFMI standard</a> 
-(Section 3.2.4) tolerances for reference results are defined in a similar way as tolerances for numerical integration algorithms. Due to its
-generality, this description form of eFMI is used here as well:
+deviations are more practical. In the
+<a href=\"https://emphysis.github.io/pages/downloads/efmi_specification_1.0.0-alpha.4.html\">eFMI standard</a> 
+(Section 3.2.4) tolerances for reference results are defined in a&nbsp;similar
+way as tolerances for numerical integration algorithms. Due to its generality,
+this description form of eFMI is used here as well:
 </p>
 
 <ul>
@@ -175,22 +183,26 @@ There is a&nbsp;huge literature on the mathematical description of uncertainties
 provides a&nbsp;comprehensive literature overview.
 In [<a href=\"modelica://Credibility.UsersGuide.References\">Bouskela2011</a>]
 some constructs are proposed to describe uncertain values in the Modelica language. 
-In the Credibility Library, the following uncertainty descriptions are currently provided
-for scalar Real parameters:
+In the Credibility Library, the following uncertainty descriptions are currently
+provided for scalar Real parameters:
 </p>
 
-<p>
-<img src=\"modelica://Credibility/Resources/Images/ScalarUncertaintyTypes.png\">
-</p>
+<div>
+<img src=\"modelica://Credibility/Resources/Images/ScalarUncertaintyTypes.png\" alt=\"Examples
+to define uncertainty descriptions with generic and tolerance parameterizations of scalar parameters\">
+</div>
 
 <p>
-An example for a TruncatedNormalTolerance uncertainty is given in the next two figures: 
+An example for a&nbsp;TruncatedNormalTolerance uncertainty is given in the next two figures: 
 </p>
 
-<p>
-<img src=\"modelica://Credibility/Resources/Images/TruncatedNormalProbabilityDensity.svg\"><br>
-<img src=\"modelica://Credibility/Resources/Images/TruncatedNormalCumulativeProbability.svg\">
-</p>
+<div>
+<img src=\"modelica://Credibility/Resources/Images/TruncatedNormalProbabilityDensity.svg\" alt=\"Probability
+density of the truncated normal distribution of resistance R = 200 W plusminus 10 W, 2 sigma\">
+<br>
+<img src=\"modelica://Credibility/Resources/Images/TruncatedNormalCumulativeProbability.svg\" alt=\"Cumulative
+probability of the truncated normal distribution of resistance R = 200 W plusminus 10 W, 2 sigma\">
+</div>
 
 
 <h4>Array uncertainty</h4>
@@ -368,14 +380,13 @@ but the <em>parameter value</em> and additional information concerning
 and
 <a href=\"modelica://Credibility.UsersGuide.ParameterCredibility.CalibrationInfo\">calibration</a>
 are stored in a&nbsp;record data structure. An example for a compliance spring constant
-is given in the next figure (from [<a href=\"modelica://Credibility.UsersGuide.References\">Otter2022</a>]):
+is given in the next figure (from
+[<a href=\"modelica://Credibility.UsersGuide.References\">Otter2022</a>]):
 </p>
 
-<p>
-<img src=\"modelica://Credibility/Resources/Images/SpringConstantCredibility.png\">
-</p>
-
-
+<div>
+<img src=\"modelica://Credibility/Resources/Images/SpringConstantCredibility.png\" alt=\"Credibility attributes of spring constant c\">
+</div>
 </html>"));
   end ParameterCredibility;
 
@@ -430,7 +441,7 @@ the implementation of the library.
       [Otter2022]
     </td>
     <td>
-      M. Otter, M. Reiner, J. Tobol&aacute;r;, L. Gall and M. Sch&auml;fer,
+      M. Otter, M. Reiner, J. Tobol&aacute;&rcaron;, L. Gall and M. Sch&auml;fer,
       &quot;Towards Modelica Models with Credibility Information&quot;,
       <em>Electronics</em>. 2022; 11(17):2728.
       <a href=\"https://doi.org/10.3390/electronics11172728\">doi 10.3390/electronics11172728</a>
@@ -441,7 +452,7 @@ the implementation of the library.
       [Gall2021]
     </td>
     <td>
-      L. Gall, M. Otter, M. Reiner, M. Sch&auml;fer and J. Tobol&aacute;r;,
+      L. Gall, M. Otter, M. Reiner, M. Sch&auml;fer and J. Tobol&aacute;&rcaron;,
       &quot;Continuous Development and Management of Credible Modelica Models&quot;,
       <em>14th International Modelica Conference</em>,
       pp. 359&ndash;372, <a href=\"https://doi.org/10.3384/ecp21181359\">doi 10.3384/ecp21181359</a>,

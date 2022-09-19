@@ -20,7 +20,7 @@ a standardized way. For details, see
 <ul>
 <li><a href=\"modelica://Credibility.Examples\">Examples</a>, </li>
 <li><a href=\"modelica://Credibility.UsersGuide\">User&apos;s Guide</a>, and the article </li>
-<li> M. Otter, M. Reiner, J. Tobol&aacute;r, L. Gall and M. Sch&auml;fer,
+<li> M. Otter, M. Reiner, J. Tobol&aacute;&rcaron;, L. Gall and M. Sch&auml;fer,
 &quot;Towards Modelica Models with Credibility Information&quot;,
 <em>MDPI Electronics</em>. 2022; 11(17):2728,.
 <a href=\"https://doi.org/10.3390/electronics11172728\">doi 10.3390/electronics11172728</a>
