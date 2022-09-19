@@ -433,7 +433,7 @@ the implementation of the library.
       [Otter2022]
     </td>
     <td>
-      M. Otter, M. Reiner, J. Tobol&aacute;r;, L. Gall and M. Sch&auml;fer,
+      M. Otter, M. Reiner, J. Tobol&aacute;&rcaron;, L. Gall and M. Sch&auml;fer,
       &quot;Towards Modelica Models with Credibility Information&quot;,
       <em>Electronics</em>. 2022; 11(17):2728.
       <a href=\"https://doi.org/10.3390/electronics11172728\">doi 10.3390/electronics11172728</a>
@@ -444,7 +444,7 @@ the implementation of the library.
       [Gall2021]
     </td>
     <td>
-      L. Gall, M. Otter, M. Reiner, M. Sch&auml;fer and J. Tobol&aacute;r;,
+      L. Gall, M. Otter, M. Reiner, M. Sch&auml;fer and J. Tobol&aacute;&rcaron;,
       &quot;Continuous Development and Management of Credible Modelica Models&quot;,
       <em>14th International Modelica Conference</em>,
       pp. 359&ndash;372, <a href=\"https://doi.org/10.3384/ecp21181359\">doi 10.3384/ecp21181359</a>,
