@@ -67,8 +67,10 @@ This is a&nbsp;simple drive train consisting of the following elements:
 
 <ul>
   <li>
-    A&nbsp;motor inertia that is driven by an external torque.</li>
-  <li>The measured motor speed (=&nbsp;angular velocity) is provided as output signal.<li>
+    A&nbsp;motor inertia that is driven by an external torque.
+  </li>
+  <li>
+    The measured motor speed (=&nbsp;angular velocity) is provided as output signal.
   </li>
   <li>
     A&nbsp;load inertia.
