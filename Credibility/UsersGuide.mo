@@ -124,10 +124,10 @@ specified with an uncertainty description.
 </p>
 
 <p>
-Every physical quantity has inherent limits. Therefore, the upper and lower limits of
-a scalar value need to be defined, independent of the kind of the mathematical description
-of the uncertainty. For this reason, the minimum information to be provided for a scalar parameter with an uncertainty
-description of any kind is:
+Every physical quantity has inherent limits. Therefore, the upper and lower limits
+of a&nbsp;scalar value need to be defined, independent of the kind of the mathematical
+description of the uncertainty. For this reason, the minimum information to be
+provided for a&nbsp;scalar parameter with an uncertainty description of any kind is:
 </p>
 
 <ul>
@@ -144,9 +144,11 @@ description of any kind is:
 
 <p>
 Often, it is inconvenient to provide absolute ranges and instead, relative or absolute
-deviations are more practical. In the <a href=\"https://emphysis.github.io/pages/downloads/efmi_specification_1.0.0-alpha.4.html\">eFMI standard</a> 
-(Section 3.2.4) tolerances for reference results are defined in a similar way as tolerances for numerical integration algorithms. Due to its
-generality, this description form of eFMI is used here as well:
+deviations are more practical. In the
+<a href=\"https://emphysis.github.io/pages/downloads/efmi_specification_1.0.0-alpha.4.html\">eFMI standard</a> 
+(Section 3.2.4) tolerances for reference results are defined in a&nbsp;similar
+way as tolerances for numerical integration algorithms. Due to its generality,
+this description form of eFMI is used here as well:
 </p>
 
 <ul>
@@ -181,8 +183,8 @@ There is a&nbsp;huge literature on the mathematical description of uncertainties
 provides a&nbsp;comprehensive literature overview.
 In [<a href=\"modelica://Credibility.UsersGuide.References\">Bouskela2011</a>]
 some constructs are proposed to describe uncertain values in the Modelica language. 
-In the Credibility Library, the following uncertainty descriptions are currently provided
-for scalar Real parameters:
+In the Credibility Library, the following uncertainty descriptions are currently
+provided for scalar Real parameters:
 </p>
 
 <div>
@@ -191,7 +193,7 @@ to define uncertainty descriptions with generic and tolerance parameterizations 
 </div>
 
 <p>
-An example for a TruncatedNormalTolerance uncertainty is given in the next two figures: 
+An example for a&nbsp;TruncatedNormalTolerance uncertainty is given in the next two figures: 
 </p>
 
 <div>

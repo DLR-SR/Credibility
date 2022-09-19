@@ -70,15 +70,16 @@ This is a&nbsp;simple drive train consisting of the following elements:
     A&nbsp;motor inertia that is driven by an external torque.
   </li>
   <li>
-    The measured motor speed (=&nbsp;angular velocity) is provided as output signal.
+    The measured motor speed (=&nbsp;angular velocity) provided as output signal.
   </li>
   <li>
     A&nbsp;load inertia.
   </li>
   <li>
     A&nbsp;gearbox. The compliance of the
-    gearbox is modelled with <strong>a nonlinear spring defined with a table and a&nbsp;linear
-    damper</strong>. The compliance is modelled because it limits the performance of a controller.
+    gearbox is modelled with <strong>a&nbsp;nonlinear spring defined with
+    a&nbsp;table and a&nbsp;linear damper</strong>. The compliance is modelled
+    because it limits the performance of a&nbsp;controller.
   </li>
 </ul>
 
