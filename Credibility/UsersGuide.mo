@@ -179,18 +179,22 @@ In the Credibility Library, the following uncertainty descriptions are currently
 for scalar Real parameters:
 </p>
 
-<p>
-<img src=\"modelica://Credibility/Resources/Images/ScalarUncertaintyTypes.png\">
-</p>
+<div>
+<img src=\"modelica://Credibility/Resources/Images/ScalarUncertaintyTypes.png\" alt=\"Examples
+to define uncertainty descriptions with generic and tolerance parameterizations of scalar parameters\">
+</div>
 
 <p>
 An example for a TruncatedNormalTolerance uncertainty is given in the next two figures: 
 </p>
 
-<p>
-<img src=\"modelica://Credibility/Resources/Images/TruncatedNormalProbabilityDensity.svg\"><br>
-<img src=\"modelica://Credibility/Resources/Images/TruncatedNormalCumulativeProbability.svg\">
-</p>
+<div>
+<img src=\"modelica://Credibility/Resources/Images/TruncatedNormalProbabilityDensity.svg\" alt=\"Probability
+density of the truncated normal distribution of resistance R = 200 W plusminus 10 W, 2 sigma\">
+<br>
+<img src=\"modelica://Credibility/Resources/Images/TruncatedNormalCumulativeProbability.svg\" alt=\"Cumulative
+probability of the truncated normal distribution of resistance R = 200 W plusminus 10 W, 2 sigma\">
+</div>
 
 
 <h4>Array uncertainty</h4>
@@ -368,14 +372,13 @@ but the <em>parameter value</em> and additional information concerning
 and
 <a href=\"modelica://Credibility.UsersGuide.ParameterCredibility.CalibrationInfo\">calibration</a>
 are stored in a&nbsp;record data structure. An example for a compliance spring constant
-is given in the next figure (from [<a href=\"modelica://Credibility.UsersGuide.References\">Otter2022</a>]):
+is given in the next figure (from
+[<a href=\"modelica://Credibility.UsersGuide.References\">Otter2022</a>]):
 </p>
 
-<p>
-<img src=\"modelica://Credibility/Resources/Images/SpringConstantCredibility.png\">
-</p>
-
-
+<div>
+<img src=\"modelica://Credibility/Resources/Images/SpringConstantCredibility.png\" alt=\"Credibility attributes of spring constant c\">
+</div>
 </html>"));
   end ParameterCredibility;
 
