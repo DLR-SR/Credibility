@@ -2,7 +2,6 @@
 package Table1DScalings "Functions for evaluation of credible 1D tables"
   extends Modelica.Icons.Package;
 
-protected
   function getTableLambdaByInterval "Calculate scaled table by lower and upper limits"
     extends Modelica.Icons.Function;
 
