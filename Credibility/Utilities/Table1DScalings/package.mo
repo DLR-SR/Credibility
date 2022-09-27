@@ -16,6 +16,7 @@ package Table1DScalings "Functions for evaluation of credible 1D tables"
     else
       table[:,2] := (1 + lambda) * uncertainty[:,2] - lambda * uncertainty[:,3];
     end if;
+
     annotation (Documentation(info="<html>
 <p>
 Evaluate <code>table</code> from the <code>uncertainty</code> matrix
@@ -41,15 +42,15 @@ The convex combination is defined for the Real <code>lambda</code> in a&nbsp;way
 </p>
 <ul>
   <li>
-    <var>&lambda;</var>&nbsp;= −1 results in
+    <var>&lambda;</var> = −1 results in
     <code>table[:,&nbsp;2]</code>&nbsp;= <code>uncertainty[:,&nbsp;3]</code>,
   </li>
   <li>
-    <var>&lambda;</var>&nbsp;= 0 results in
+    <var>&lambda;</var> = 0 results in
     <code>table[:,&nbsp;2]</code>&nbsp;= <code>uncertainty[:,&nbsp;2]</code> and
   </li>
   <li>
-    <var>&lambda;</var>&nbsp;= 1 results in
+    <var>&lambda;</var> = 1 results in
     <code>table[:,&nbsp;2]</code>&nbsp;= <code>uncertainty[:,&nbsp;4]</code>.
   </li>
 </ul>
@@ -85,6 +86,55 @@ For further details, refer to
     else
       table[:,2] := (1 + lambda) * uncertainty[:,2] - lambda * (uncertainty[:,2]-tol);
     end if;
+
+    annotation (Documentation(info="<html>
+<p>
+Evaluate <code>table</code> from the <code>uncertainty</code> matrix
+and <strong>tolerances</strong> by a&nbsp;convex combination utilizing
+attribute <code>lambda</code>.
+Hereby, the matrix <code>uncertainty</code> contains
+</p>
+<ul>
+  <li>
+    col. 1: grid values,
+  </li>
+  <li>
+    col. 2: vector of <em>nominal values</em>.
+  </li>
+</ul>
+<p>
+The convex combination is defined for the Real <code>lambda</code> in a&nbsp;way that 
+</p>
+<ul>
+  <li>
+    <var>&lambda;</var> = −1 results in
+    <code>table[:,&nbsp;2]</code>&nbsp;= <code>uncertainty[:,&nbsp;2] - tol[:]</code>,
+  </li>
+  <li>
+    <var>&lambda;</var> = 0 results in
+    <code>table[:,&nbsp;2]</code>&nbsp;= <code>uncertainty[:,&nbsp;2]</code> and
+  </li>
+  <li>
+    <var>&lambda;</var> = 1 results in
+    <code>table[:,&nbsp;2]</code>&nbsp;= <code>uncertainty[:,&nbsp;2] + tol[:]</code>.
+  </li>
+</ul>
+<p>
+The tolerance vector <code>tol</code> is defined element-wise by
+</p>
+
+<blockquote><pre>
+tol[i] = max( absTol, relTol*abs(uncertainty[i, 2]) ).
+</pre></blockquote>
+
+<p>
+This function is called in <a href=\"modelica://Credibility.Table1D\">Table1D</a>
+to evaluate &quot;table[i,j]&quot;.
+For further details, refer to 
+<a href=\"modelica://Credibility.UsersGuide.ParameterCredibility.UncertaintyInfo\">User&apos;s Guide</a>
+&ndash; &quot;Convex scaling by uncertain parameter <var>&lambda;</var>&quot;.
+</p>
+</html>"));
   end getTableLambdaByTolerance;
   annotation (
     Documentation(info="<html>
