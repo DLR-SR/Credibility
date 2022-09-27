@@ -152,28 +152,41 @@ this description form of eFMI is used here as well:
 </p>
 
 <ul>
-<li>nominal — nominal value of the scalar</li>
-<li>relTol — relative tolerance of limits with respect to nominal (default = 0.0).</li>
-<li>absTol — absolute tolerance of limits with respect to nominal (default = 0.0).</li>
+  <li>
+    nominal — nominal value of the scalar
+  </li>
+  <li>
+    relTol — relative tolerance of limits with respect to nominal (default = 0.0).
+  </li>
+  <li>
+    absTol — absolute tolerance of limits with respect to nominal (default = 0.0).
+  </li>
 </ul>
 
 <p>
 The lower and upper values are computed from these parameters in the following way:
 </p>
 
-<pre>
+<blockquote><pre>
 tol   = max(absTol, relTol*|nominal|)
 lower = nominal − tol
 upper = nominal + tol
-</pre>
+</pre></blockquote>
 
 <p>
-Examples:
+Example:
+</br>
+The resistance of an electrical resistor can be defined using following tolerances:
 </p>
 
 <ul>
-<li>200 Ω ± 5% — limits defined with relTol = 0.05 (absTol = 0).</li>
-<li>200 Ω ± 10 Ω — limits defined with absTol = 10 Ω (relTol = 0). </li>
+  <li>
+    200&nbsp;&ohm; ± 5&nbsp;% — limits defined with relTol = 0.05 (absTol = 0&nbsp;&ohm;).
+  </li>
+  <li>
+    200&nbsp;&ohm; ± 10&nbsp;&ohm; — limits defined with absTol = 10&nbsp;&ohm;
+    (relTol = 0).
+  </li>
 </ul>
 
 
@@ -181,10 +194,11 @@ Examples:
 There is a&nbsp;huge literature on the mathematical description of uncertainties.
 [<a href=\"modelica://Credibility.UsersGuide.References\">Riedmaier2021</a>]
 provides a&nbsp;comprehensive literature overview.
-In [<a href=\"modelica://Credibility.UsersGuide.References\">Bouskela2011</a>]
+In [<a href=\"modelica://Credibility.UsersGuide.References\">Bouskela2011</a>],
 some constructs are proposed to describe uncertain values in the Modelica language. 
 In the Credibility Library, the following uncertainty descriptions are currently
-provided for scalar Real parameters:
+provided for scalar Real parameters, see
+<a href=\"modelica://Credibility.Types\">Types</a>:
 </p>
 
 <div>
@@ -193,7 +207,8 @@ to define uncertainty descriptions with generic and tolerance parameterizations 
 </div>
 
 <p>
-An example for a&nbsp;TruncatedNormalTolerance uncertainty is given in the next two figures: 
+An example for a&nbsp;TruncatedNormalTolerance uncertainty of the abovementioned
+resistance is given in the next two figures: 
 </p>
 
 <div>
