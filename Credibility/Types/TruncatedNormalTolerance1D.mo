@@ -29,7 +29,7 @@ uncertainty for general information.
     for additional information.
   </li>
   <li>
-    <a href=\"modelica://Credibility.Table1D.getTableLambdaByTolerance\">Table1D.getTableLambdaByTolerance</a>
+    <a href=\"modelica://Credibility.Utilities.Table1DScalings.getTableLambdaByTolerance\">getTableLambdaByTolerance</a>
     for usability.
   </li>
 </ul>
