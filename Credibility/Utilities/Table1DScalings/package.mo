@@ -8,7 +8,7 @@ package Table1DScalings "Functions for evaluation of credible 1D tables"
 <p>
 This package contains scaling functions used in
 <a href=\"modelica://Credibility.Table1D\">Table1D</a>
-to compute &quot;table[i,j]&quot; from the given&quot;uncertainty&quot;
+to compute &quot;table[i,j]&quot; from the given &quot;uncertainty&quot;
 matrix. For further details, refer to 
 <a href=\"modelica://Credibility.UsersGuide.ParameterCredibility.UncertaintyInfo\">User&apos;s Guide</a>
 &ndash; &quot;Convex scaling by uncertain parameter <var>&lambda;</var>&quot;.
