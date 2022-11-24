@@ -333,9 +333,9 @@ and <var>&lambda;</var>&nbsp;= 1 results in &quot;y[i] = upper[i]&quot;, in part
 A&nbsp;realization can be seen in <a href=\"modelica://Credibility.Table1D\">Credibility.Table1D</a>
 where &quot;uncertainty&quot; table is in fact defined by parameter <code>uncertainty.table</code>.
 In this record, the abovementioned calculation is done in the function 
-<a href=\"modelica://Credibility.Table1D.getTableLambdaByInterval\">getTableLambdaByInterval</a>.
+<a href=\"modelica://Credibility.Utilities.Table1DScalings.getTableLambdaByInterval\">getTableLambdaByInterval</a>.
 There is also implemented an alternative calculation of &quot;table[i,j]&quot; called
-<a href=\"modelica://Credibility.Table1D.getTableLambdaByTolerance\">getTableLambdaByTolerance</a>
+<a href=\"modelica://Credibility.Utilities.Table1DScalings.getTableLambdaByTolerance\">getTableLambdaByTolerance</a>
 utilizing &ndash; either relative or absolute &ndash;
 tolerances.
 </p>
