@@ -38,7 +38,7 @@ equation
 
   annotation (
     experiment(StopTime=4),
-    Icon(coordinateSystem(extent={{-100,-100},{120,100}})),
+    Icon(coordinateSystem(extent={{-100,-100},{100,100}})),
     Diagram(
       coordinateSystem(
         preserveAspectRatio=true,
