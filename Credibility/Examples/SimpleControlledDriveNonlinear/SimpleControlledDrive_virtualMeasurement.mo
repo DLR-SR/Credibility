@@ -31,11 +31,19 @@ model SimpleControlledDrive_virtualMeasurement "Drive train for virtual measurem
     height=30,
     duration=4,
     offset=1) annotation (Placement(transformation(extent={{-90,50},{-70,70}})));
-  Modelica.Blocks.Noise.NormalNoise normalNoise1(samplePeriod=0.001, sigma=5e-4)
+  Modelica.Blocks.Noise.NormalNoise normalNoise1(
+    samplePeriod=0.001,
+    useAutomaticLocalSeed=false,
+    fixedLocalSeed=164489418,
+    sigma=5e-4)
     annotation (Placement(transformation(extent={{-70,-76},{-50,-56}})));
   Modelica.Blocks.Math.Add add1
     annotation (Placement(transformation(extent={{0,-50},{20,-70}})));
-  Modelica.Blocks.Noise.NormalNoise normalNoise2(samplePeriod=0.001, sigma=5e-4)
+  Modelica.Blocks.Noise.NormalNoise normalNoise2(
+    samplePeriod=0.001,
+    useAutomaticLocalSeed=false,
+    fixedLocalSeed=998714647,
+    sigma=5e-4)
     annotation (Placement(transformation(extent={{-40,-100},{-20,-80}})));
   Modelica.Blocks.Math.Add add2
     annotation (Placement(transformation(extent={{60,-74},{80,-94}})));
