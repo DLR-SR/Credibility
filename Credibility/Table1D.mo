@@ -5,7 +5,10 @@ record Table1D "Record collecting credibility information for a Real 1D table"
   final parameter Real table[size(uncertainty.table,1),2]=
     if uncertainty.withTolerance then
       Utilities.Table1DScalings.getTableLambdaByTolerance(
-        uncertainty.lambda, uncertainty.table, uncertainty.relTol, uncertainty.absTol)
+        uncertainty.lambda,
+        uncertainty.table[:,1:2],
+        uncertainty.relTol,
+        uncertainty.absTol)
     else
       Utilities.Table1DScalings.getTableLambdaByInterval(
         uncertainty.lambda, uncertainty.table)
