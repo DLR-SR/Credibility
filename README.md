@@ -3,6 +3,7 @@
 # Credibility
 
 [![The BSD License](https://img.shields.io/badge/license-BSD-brightgreen.svg?style=flat-square)](https://github.com/DLR-SR/Credibility/blob/master/LICENSE.md)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/dlr-sr/credibility?label=last%20release&sort=semver&style=flat-square)
 
 Package Credibility is a free Modelica package to add traceability, uncertainty and calibration information to scalar and 1D-table parameters in a standardized way. For details of this library, see also the journal article [Towards Modelica Models with Credibility Information](https://doi.org/10.3390/electronics11172728).
 
