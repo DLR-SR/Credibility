@@ -10,6 +10,8 @@
 *.mo text
 *.mos text
 *.order text
+*.po text
+*.pot text
 *.py text
 *.yml text
 .gitattributes text
