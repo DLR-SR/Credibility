@@ -69,7 +69,7 @@ k ............... scaling coefficient.
         Text(
           extent={{-100,80},{100,40}},
           textString="%name",
-          lineColor={0,0,255}),
+          textColor={0,0,255}),
         Line(
           points={{-34,14},{-34,-14},{34,-14}},
           color={0,0,255}),
@@ -94,7 +94,7 @@ k ............... scaling coefficient.
           color={128,128,128}),
         Text(
           extent={{-20,56},{20,81}},
-          lineColor={128,128,128},
+          textColor={128,128,128},
           textString="phi_rel"),
         Polygon(
           points={{90,83},{100,80},{90,77},{90,83}},
@@ -106,6 +106,6 @@ k ............... scaling coefficient.
           color={128,128,128}),
         Text(
           extent={{13,-63},{81,-76}},
-          lineColor={128,128,128},
+          textColor={128,128,128},
           textString="translation axis")}));
 end SpringNonLinear;
