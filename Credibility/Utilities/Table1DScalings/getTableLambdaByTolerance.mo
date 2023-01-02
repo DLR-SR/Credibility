@@ -1,4 +1,4 @@
-﻿within Credibility.Utilities.Table1DScalings;
+within Credibility.Utilities.Table1DScalings;
 function getTableLambdaByTolerance "Calculate scaled table by tolerances"
   extends Modelica.Icons.Function;
 

@@ -1,4 +1,4 @@
-﻿within ;
+within ;
 package Credibility "Credibility Library - Version 0.1.0"
   extends Modelica.Icons.Package;
   import Modelica.Units;
