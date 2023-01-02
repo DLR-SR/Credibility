@@ -1,4 +1,4 @@
-﻿within Credibility.Types;
+within Credibility.Types;
 record IntervalTolerance "Uncertainty defined by interval (epistemic uncertainty) with tolerance"
   extends Interval(
     final kind = UncertaintyKind.IntervalTolerance,
