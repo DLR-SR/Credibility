@@ -1,4 +1,4 @@
-﻿within Credibility.Utilities.Table1DScalings;
+within Credibility.Utilities.Table1DScalings;
 function getTableLambdaByInterval "Calculate scaled table by lower and upper limits"
   extends Modelica.Icons.Function;
 
@@ -39,7 +39,7 @@ The convex combination is defined for the Real <code>lambda</code> in a&nbsp;way
 </p>
 <ul>
   <li>
-    <var>&lambda;</var> = −1 results in
+    <var>&lambda;</var> = -1 results in
     <code>table[:,&nbsp;2]</code>&nbsp;= <code>uncertainty[:,&nbsp;3]</code>,
   </li>
   <li>
