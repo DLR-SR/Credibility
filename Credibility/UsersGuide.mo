@@ -173,9 +173,8 @@ lower = nominal − tol
 upper = nominal + tol
 </pre></blockquote>
 
+<h5>Example</h5>
 <p>
-Example:
-</br>
 The resistance of an electrical resistor can be defined using following tolerances:
 </p>
 
