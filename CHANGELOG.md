@@ -6,6 +6,8 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
+- Enable multilingual descriptions (cs, de)
+
 ### Changed
 
 - Example `SimpleControlledDrive_virtualMeasurement`: Use `fixedLocalSeed` for noise generator to always get reproducible results.
