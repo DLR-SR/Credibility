@@ -1,4 +1,4 @@
-﻿within Credibility.Types;
+within Credibility.Types;
 record UniformTolerance "Uncertainty defined by uniform distribution with tolerance"
   extends Uniform(
      final kind = UncertaintyKind.UniformTolerance,

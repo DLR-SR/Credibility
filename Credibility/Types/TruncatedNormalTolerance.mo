@@ -1,4 +1,4 @@
-﻿within Credibility.Types;
+within Credibility.Types;
 record TruncatedNormalTolerance "Uncertainty defined by truncated normal distribution with tolerance"
   extends TruncatedNormal(
     final kind = UncertaintyKind.TruncatedNormalTolerance,
