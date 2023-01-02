@@ -1,4 +1,4 @@
-﻿within Credibility;
+within Credibility;
 package UsersGuide "User's Guide"
   extends Modelica.Icons.Information;
 
