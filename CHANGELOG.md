@@ -12,8 +12,9 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 
-- [#4](https://github.com/DLR-SR/Credibility/issues/4): Fix mismatch size of `uncertainty.table` in function call `getTableLambdaByTolerance()`.
-- [#3](https://github.com/DLR-SR/Credibility/issues/3): Omit protected sections in record `Table1D`.
+- [#4](https://github.com/DLR-SR/Credibility/issues/4): Fix mismatch size of `uncertainty.table` in the function call `getTableLambdaByTolerance()`.
+- [#3](https://github.com/DLR-SR/Credibility/issues/3): Omit protected sections in the record `Table1D`.
+- Several typos in the documentation.
 
 ## [0.1.0]  - 2022-09-17
 
