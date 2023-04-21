@@ -114,7 +114,7 @@ for virtual measurement"),
 <p>
 A&nbsp;controlled simple drive train to generate noisy signals of speed sensors.
 The signals <code>noisyMotorSpeed</code> and <code>noisyLoadSpeed</code> can be
-used as virtual mesurements for
+used as virtual measurements for
 <a href=\"modelica://Credibility.Examples.SimpleControlledDriveNonlinear.SimpleControlledDrive_forCalibration\">model calibration</a>,
 whereby this example is configured in a&nbsp;way especially suitable for calibration
 of the damping parameter <code>damper.d</code>. Therefore, <code>damper.d</code>

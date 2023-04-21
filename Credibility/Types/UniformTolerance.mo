@@ -39,7 +39,7 @@ this description utilizes:
   </li>
 </ul>
 <p>
-Utilizing this information, the lower and upper values of the underlayed
+Utilizing this information, the lower and upper values of the underlaid
 <a href=\"modelica://Credibility.Types.Uniform\">uniform distribution</a>
 can be computed in the following way:
 </p>

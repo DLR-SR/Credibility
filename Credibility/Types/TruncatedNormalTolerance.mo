@@ -58,7 +58,7 @@ And, additionally,
 </ul>
 
 <p>
-Consequently, the parameters of the underlayed
+Consequently, the parameters of the underlaid
 <a href=\"modelica://Credibility.Types.TruncatedNormal\">truncated normal
 distribution</a>, are computed from the given parameterization in the following way:
 </p>

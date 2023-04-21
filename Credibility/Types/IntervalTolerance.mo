@@ -43,7 +43,7 @@ form of eFMI is used here as well:
   </li>
 </ul>
 <p>
-Utilizing this information, the lower and upper values of the underlayed
+Utilizing this information, the lower and upper values of the underlaid
 <a href=\"modelica://Credibility.Types.Interval\">interval
 distribution</a> can be computed in
 the following way:
