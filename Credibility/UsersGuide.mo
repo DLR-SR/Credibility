@@ -107,7 +107,7 @@ of parameter value</a> needs to be given:
 </ul>
 
 <p>
-Additonally, the mathematical description of uncertainties of scalars and of
+Additionally, the mathematical description of uncertainties of scalars and of
 arrays/tables must be provided. Particular descriptions provided with
 the library are collected in package 
 <a href=\"modelica://Credibility.Types.Uncertainty\">Types.Uncertainty</a>.
