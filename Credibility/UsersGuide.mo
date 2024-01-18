@@ -135,7 +135,7 @@ provided for a&nbsp;scalar parameter with an uncertainty description of any kind
     nominal &ndash; the nominal value of the scalar (e.g., determined by calibration).
   </li>
   <li>
-    lower &ndash;  the lowest possible value of the uncertain scalar.
+    lower &ndash; the lowest possible value of the uncertain scalar.
   </li>
   <li>
     upper &ndash; the highest possible value of the uncertain scalar.
@@ -180,11 +180,12 @@ The resistance of an electrical resistor can be defined using following toleranc
 
 <ul>
   <li>
-    200&nbsp;&ohm; ± 5&nbsp;% &ndash; limits defined with relTol = 0.05 (absTol = 0&nbsp;&ohm;).
+    200&nbsp;&ohm;&nbsp;&plusmn;&nbsp;5&nbsp;% &ndash; limits defined with
+    relTol&nbsp;=&nbsp;0.05 (absTol&nbsp;= 0&nbsp;&ohm;).
   </li>
   <li>
-    200&nbsp;&ohm; ± 10&nbsp;&ohm; &ndash; limits defined with absTol = 10&nbsp;&ohm;
-    (relTol = 0).
+    200&nbsp;&ohm;&nbsp;&plusmn;&nbsp;10&nbsp;&ohm; &ndash; limits defined with
+    absTol&nbsp;= 10&nbsp;&ohm; (relTol&nbsp;=&nbsp;0).
   </li>
 </ul>
 
