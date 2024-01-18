@@ -153,13 +153,13 @@ this description form of eFMI is used here as well:
 
 <ul>
   <li>
-    nominal — nominal value of the scalar
+    nominal &ndash; nominal value of the scalar
   </li>
   <li>
-    relTol — relative tolerance of limits with respect to nominal (default = 0.0).
+    relTol &ndash; relative tolerance of limits with respect to nominal (default = 0.0).
   </li>
   <li>
-    absTol — absolute tolerance of limits with respect to nominal (default = 0.0).
+    absTol &ndash; absolute tolerance of limits with respect to nominal (default = 0.0).
   </li>
 </ul>
 
@@ -180,10 +180,10 @@ The resistance of an electrical resistor can be defined using following toleranc
 
 <ul>
   <li>
-    200&nbsp;&ohm; ± 5&nbsp;% — limits defined with relTol = 0.05 (absTol = 0&nbsp;&ohm;).
+    200&nbsp;&ohm; ± 5&nbsp;% &ndash; limits defined with relTol = 0.05 (absTol = 0&nbsp;&ohm;).
   </li>
   <li>
-    200&nbsp;&ohm; ± 10&nbsp;&ohm; — limits defined with absTol = 10&nbsp;&ohm;
+    200&nbsp;&ohm; ± 10&nbsp;&ohm; &ndash; limits defined with absTol = 10&nbsp;&ohm;
     (relTol = 0).
   </li>
 </ul>
