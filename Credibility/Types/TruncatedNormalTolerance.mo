@@ -65,7 +65,7 @@ distribution</a>, are computed from the given parameterization in the following 
 
 <blockquote><pre>
 tol = max(absTol, relTol * |nominal|)
-lower = nominal − tol
+lower = nominal &minus; tol
 upper = nominal + tol
 stdDev = tol/stdDevFactor
 </pre></blockquote>
