@@ -46,7 +46,7 @@ can be computed in the following way:
 
 <blockquote><pre>
 tol = max(absTol, relTol * |nominal|),
-lower = nominal − tol,
+lower = nominal &minus; tol,
 upper = nominal + tol.
 </pre></blockquote>
 </html>"));

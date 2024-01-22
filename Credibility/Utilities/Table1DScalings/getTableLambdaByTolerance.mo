@@ -41,7 +41,7 @@ The convex combination is defined for the Real <code>lambda</code> in a&nbsp;way
 </p>
 <ul>
   <li>
-    <var>&lambda;</var> = −1 results in
+    <var>&lambda;</var> = &minus;1 results in
     <code>table[:,&nbsp;2]</code>&nbsp;= <code>uncertainty[:,&nbsp;2] - tol[:]</code>,
   </li>
   <li>

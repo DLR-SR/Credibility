@@ -169,7 +169,7 @@ The lower and upper values are computed from these parameters in the following w
 
 <blockquote><pre>
 tol   = max(absTol, relTol*|nominal|)
-lower = nominal − tol
+lower = nominal &minus; tol
 upper = nominal + tol
 </pre></blockquote>
 
@@ -273,7 +273,7 @@ and <var>u2</var>&nbsp;= [10, 20, 30]. The nominal array is a&nbsp;matrix of siz
 <var>lower</var>&nbsp;= [11 12 13; 21 22 23; 31 32 33; 41 42 43] and
 <var>upper</var>&nbsp;= [119 129 139; 219 229 239; 319 329 339; 419 429 439].
 Thus, e.g. the uncertain table value of <var>u1</var>&nbsp;= 0.2 and <var>u2</var>&nbsp;= 30
-(i.e. array element [2,&nbsp;3]) must be in the range [23&nbsp;..239].
+(i.e. array element [2,&nbsp;3]) must be in the range [23&nbsp;&hellip;&nbsp;239].
 </p>
 
 
@@ -320,9 +320,10 @@ Hereby, the matrix &quot;uncertainty&quot; contains
   </li>
 </ul>
 <p>
-The convex combination is defined in a&nbsp;way that <var>&lambda;</var>&nbsp;= −1 results
-in &quot;y[i] = lower[i]&quot;, <var>&lambda;</var>&nbsp;= 0 results in &quot;y[i] = nominal[i]&quot;
-and <var>&lambda;</var>&nbsp;= 1 results in &quot;y[i] = upper[i]&quot;, in particular:
+The convex combination is defined in a&nbsp;way that <var>&lambda;</var>&nbsp;=&nbsp;&minus;1 results
+in &quot;y[i]&nbsp;= lower[i]&quot;, <var>&lambda;</var>&nbsp;=&nbsp;0 results in
+&quot;y[i]&nbsp;= nominal[i]&quot; and <var>&lambda;</var>&nbsp;=&nbsp;1 results in
+&quot;y[i]&nbsp;= upper[i]&quot;, in particular:
 </p>
 <div>
 <img src=\"modelica://Credibility/Resources/Images/equationConvexCombination.png\" alt=\"Equation to calculate y[i] by convex combination utilizing lambda\"/>
