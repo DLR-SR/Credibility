@@ -541,7 +541,8 @@ grant numbers 01IS20072H and 01IS20072G).
 <p>
 The development of this library is based on the work that was carried out
 by the library authors (see above) and by Leo Gall and Matthias Sch&auml;fer (both LTX
-Simulation GmbH) in the UPSIM project, see journal article <a href=\"https://doi.org/10.3390/electronics11172728\">doi 10.3390/electronics11172728</a>.
+Simulation GmbH) in the UPSIM project, see journal article <em>Towards Modelica
+Models with Credibility Information</em>, <a href=\"https://doi.org/10.3390/electronics11172728\">doi 10.3390/electronics11172728</a>.
 </p>
 <p>
 We would like to thank our colleague Andreas Pfeiffer (DLR-SR) for his
