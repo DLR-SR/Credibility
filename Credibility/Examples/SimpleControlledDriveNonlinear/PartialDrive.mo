@@ -117,15 +117,15 @@ not in the motor position/speed. Therefore, the following initialization is defi
     Note, if standard steady state initialization would be performed,
     then the load angle would be undefined.
     When a&nbsp;controller is added to the model and steady-state initialization
-    is desired, then the load angular acceleration should be set to zero,
+    is desired, then the load angular acceleration should also be set to zero,
     provided the controller has at least one state (e.g. a&nbsp;PI controller)
     that can be computed from this setting, cf. initialization of
     <a href=\"modelica://Credibility.Examples.SimpleControlledDriveNonlinear.SimpleControlledDrive_original\">SimpleControlledDrive_original</a>.
   </li>
   <li>
     The relative angular velocity and relative angular acceleration of the
-    gear/compliance are both initialized to zero, see <code>damper</code>, so this
-    element is initialized in steady state.
+    gear/compliance are both initialized to zero, see <code>damper</code>
+    element which is, therefore, initialized in steady state.
   </li>
 </ul>
 </html>"));
