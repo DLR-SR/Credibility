@@ -25,7 +25,7 @@ of Modelica library Credibility together with parametrization of a drive train e
 <p>
 <a href=\"modelica://Credibility.Examples.SimpleControlledDriveNonlinear.SimpleControlledDrive_original\">SimpleControlledDrive_original</a>
 uses the partial model of the drive train, adds a&nbsp;controller and concrete
-values including credibility information by replacing the PartialData record with 
+values including credibility information by replacing the <em>PartialData</em> record with 
 <a href=\"modelica://Credibility.Examples.SimpleControlledDriveNonlinear.DataVariant001\">DataVariant001</a>.
 In particular nominal, upper/lower limit values for the table of the gear
 compliance are provided
