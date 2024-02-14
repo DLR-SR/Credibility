@@ -7,7 +7,7 @@ record Interval1D "Interval uncertainty of lambda for table1D (epistemic uncerta
   constant Real absTol=0.0 "Dummy" annotation (HideResult=true);
   constant Real relTol=0.0 "Dummy" annotation (HideResult=true);
   parameter Real table[:,4] = zeros(1,4)
-    "Table matrix (columns: 1 = input/grid; 2 = nominal values; 3 = lower limits, 4 = upper limits)";
+    "Table matrix (columns: 1 = input/grid; 2 = nominal values; 3 = lower limits; 4 = upper limits)";
   annotation (
     Documentation(info="<html>
 <p>

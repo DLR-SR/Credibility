@@ -28,6 +28,5 @@ The additional parameter introduced for this truncated normal distribution is:
     <a href=\"modelica://Credibility.Types.TruncatedNormal\">TruncatedNormal</a>
   </li>
 </ul>
-
 </html>"));
 end TruncatedNormal1D;
