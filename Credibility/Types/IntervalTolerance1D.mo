@@ -1,5 +1,5 @@
 within Credibility.Types;
-record IntervalTolerance1D "Interval uncertainty of labmda for 1D table with tolerance (epistemic uncertainty)"
+record IntervalTolerance1D "Interval uncertainty of lambda for 1D table with tolerance (epistemic uncertainty)"
   extends BaseUncertainty1D(
     kind = UncertaintyKind1D.IntervalTolerance1D);
 
