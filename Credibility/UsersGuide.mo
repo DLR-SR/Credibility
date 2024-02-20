@@ -416,6 +416,16 @@ is given in the next figure (from
 This section summarizes the changes that have been performed on the library.
 </p>
 
+<h4>Version 0.2.0 (2024-MM-DD)</h4>
+<p>
+The following improvements have been realized.
+</p>
+<ul>
+  <li>
+    German translation.
+  </li>
+</ul>
+
 <h4>Version 0.1.0 (2022-09-17)</h4>
 <ul>
   <li>
