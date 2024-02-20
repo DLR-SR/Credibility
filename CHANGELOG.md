@@ -6,7 +6,7 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
-- Enable multilingual descriptions (cs, de)
+- Enable multilingual descriptions and add German translation as a starter
 
 ### Changed
 
