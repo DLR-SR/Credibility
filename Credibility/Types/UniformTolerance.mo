@@ -32,10 +32,12 @@ this description utilizes:
     is used as default for the actual parameter value.
   </li>
   <li>
-    <em>relTol</em>: relative tolerance of limits with respect to nominal (default = 0.0).
+    <em>relTol</em>: relative tolerance of limits with respect to nominal
+    (default&nbsp;=&nbsp;0.0).
   </li>
   <li>
-    <em>absTol</em>: absolute tolerance of limits with respect to nominal (default = 0.0).
+    <em>absTol</em>: absolute tolerance of limits with respect to nominal
+    (default&nbsp;=&nbsp;0.0).
   </li>
 </ul>
 <p>

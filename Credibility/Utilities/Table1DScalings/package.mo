@@ -11,7 +11,7 @@ This package contains scaling functions used in
 to compute &quot;table[i,j]&quot; from the given &quot;uncertainty&quot;
 matrix. For further details, refer to 
 <a href=\"modelica://Credibility.UsersGuide.ParameterCredibility.UncertaintyInfo\">User&apos;s Guide</a>
-&ndash; &quot;Convex scaling by uncertain parameter <var>&lambda;</var>&quot;.
+&ndash; &quot;Convex scaling by uncertain parameter&nbsp;<var>&lambda;</var>&quot;.
 </p>
 </html>"));
 end Table1DScalings;

@@ -23,9 +23,9 @@ uncertainty for general information.
 </p>
 <p>
 Often, it is inconvenient to provide absolute ranges of a&nbsp;value and,
-instead, relative or absolute deviations are more practical. In the eFMI
+instead, relative or absolute deviations are more practical. In the eFMI standard
 (<a href=\"https://emphysis.github.io/pages/downloads/efmi_specification_1.0.0-alpha.4.zip\">Functional
-Mock-up Interface for embedded systems</a>) standard, for example, tolerances
+Mock-up Interface for embedded systems</a>), for example, tolerances
 for reference results are defined in a&nbsp;similar way as tolerances for
 numerical integration algorithms. Due to its generality, this description
 form of eFMI is used here as well:
@@ -36,10 +36,12 @@ form of eFMI is used here as well:
     is used as default for the actual parameter value.
   </li>
   <li>
-    <em>relTol</em>: relative tolerance of limits with respect to nominal (default = 0.0).
+    <em>relTol</em>: relative tolerance of limits with respect to nominal
+    (default&nbsp;=&nbsp;0.0).
   </li>
   <li>
-    <em>absTol</em>: absolute tolerance of limits with respect to nominal (default = 0.0).
+    <em>absTol</em>: absolute tolerance of limits with respect to nominal
+    (default&nbsp;=&nbsp;0.0).
   </li>
 </ul>
 <p>

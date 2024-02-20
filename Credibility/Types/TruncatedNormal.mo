@@ -55,7 +55,7 @@ The Modelica Standard Library provides
 <a href=\"modelica://Modelica.Math.Distributions.TruncatedNormal\">Modelica.Math.Distributions.TruncatedNormal</a>.
 For more details of the normal distribution or of truncated distributions, see
 Wikipedia &ndash;
-<a href=\"http://en.wikipedia.org/wiki/Normal_distribution\"> normal distribution</a>
+<a href=\"http://en.wikipedia.org/wiki/Normal_distribution\">normal distribution</a>
 or
 <a href=\"http://en.wikipedia.org/wiki/Truncated_distribution\">truncated distribution</a>,
 respectively.
