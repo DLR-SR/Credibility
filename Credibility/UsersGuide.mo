@@ -283,7 +283,7 @@ provided for scalar Real parameters, see
     </td>
     <td>
       <code>nominal</code>, <code>relTol=0</code>, <code>absTol=0</code>,
-      <code>stdDevFactor=3<code>
+      <code>stdDevFactor=3</code>
     </td>
     <td>
       truncated normal distribution
