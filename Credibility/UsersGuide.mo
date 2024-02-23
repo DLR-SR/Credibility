@@ -201,10 +201,96 @@ provided for scalar Real parameters, see
 <a href=\"modelica://Credibility.Types\">Types</a>:
 </p>
 
-<div>
-<img src=\"modelica://Credibility/Resources/Images/ScalarUncertaintyTypes.png\" alt=\"Examples
-to define uncertainty descriptions with generic and tolerance parameterizations of scalar parameters\">
-</div>
+<table border=\"1\" cellspacing=\"0\" cellpadding=\"2\">
+  <caption align=\"bottom\">
+    Examples to define uncertainty descriptions with generic and tolerance
+    parameterizations of scalar parameters.
+    Default values are given with &quot;=...&quot;, such as &quot;relTol=0&quot;.
+    A&nbsp;truncated normal distribution is defined by the <code>nominal</code>
+    value (= mean value) and the standard deviation <code>stdDev</code> of the
+    underlying normal distribution, besides <code>lower</code> and
+    <code>upper</code> limits.
+  </caption>
+  <tr>
+    <th>
+      Uncertainty name
+    </th>
+    <th>
+      Parameters
+    </th>
+    <th>
+      Uncertainty type
+    </th>
+  </tr>
+  <tr>
+    <td>
+      <a href=\"modelica://Credibility.Types.Interval\">Interval</a>
+    </td>
+    <td>
+      <code>nominal</code>, <code>lower</code>, <code>upper</code>
+    </td>
+    <td>
+      epistemic
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href=\"modelica://Credibility.Types.Uniform\">Uniform</a>
+    </td>
+    <td>
+      <code>nominal</code>, <code>lower</code>, <code>upper</code>
+    </td>
+    <td>
+      uniform distribution
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href=\"modelica://Credibility.Types.TruncatedNormal\">TruncatedNormal</a>
+    </td>
+    <td>
+      <code>nominal</code>, <code>lower</code>, <code>upper</code>, <code>stdDev</code>
+    </td>
+    <td>
+      truncated normal distribution
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href=\"modelica://Credibility.Types.IntervalTolerance\">IntervalTolerance</a>
+    </td>
+    <td>
+      <code>nominal</code>, <code>relTol=0</code>, <code>absTol=0</code>
+    </td>
+    <td>
+      epistemic
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href=\"modelica://Credibility.Types.UniformTolerance\">UniformTolerance</a>
+    </td>
+    <td>
+      <code>nominal</code>, <code>relTol=0</code>, <code>absTol=0</code>
+    </td>
+    <td>
+      uniform distribution
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href=\"modelica://Credibility.Types.TruncatedNormalTolerance\">TruncatedNormalTolerance</a>
+    </td>
+    <td>
+      <code>nominal</code>, <code>relTol=0</code>, <code>absTol=0</code>,
+      <code>stdDevFactor=3<code>
+    </td>
+    <td>
+      truncated normal distribution
+    </td>
+  </tr>
+</table>
+
 
 <p>
 An example for a&nbsp;TruncatedNormalTolerance uncertainty of the abovementioned
