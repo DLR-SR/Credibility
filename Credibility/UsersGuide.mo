@@ -508,7 +508,17 @@ The following improvements have been realized.
 </p>
 <ul>
   <li>
-    German translation.
+    Add package <a href=\"modelica://Credibility.Utilities.Table1DScalings\">Utilities.Table1DScalings</a>
+    for scalings used inside of record
+    <a href=\"modelica://Credibility.Table1D\">Table1D</a>.
+  </li>
+  <li>
+    <a href=\"modelica://Credibility.Table1D\">Table1D</a>: fix mismatching array size in function call
+    <a href=\"modelica://Credibility.Utilities.Table1DScalings.getTableLambdaByTolerance\">getTableLambdaByTolerance</a>().
+  </li>
+  <li>
+    German translation. See also Modelica Specification &ndash;
+    <a href=\"https://specification.modelica.org/maint/3.6/packages.html#multilingual-descriptions\">Multilingual Descriptions</a>.
   </li>
 </ul>
 
