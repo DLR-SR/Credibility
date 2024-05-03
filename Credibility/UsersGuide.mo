@@ -694,7 +694,7 @@ Germany
 
 <h4>Copyright</h4>
 <p>
-&copy; 2022, DLR Institut f&uuml;r Systemdynamik und Regelungstechnik
+&copy; 2022-2024, DLR Institut f&uuml;r Systemdynamik und Regelungstechnik
 <br>All rights reserved.
 </p>
 

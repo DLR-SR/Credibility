@@ -1,12 +1,14 @@
 within ;
-package Credibility "Credibility Library - Version 0.1.0"
+package Credibility "Credibility Library - Version 0.2.0"
   extends Modelica.Icons.Package;
   import Modelica.Units;
 
   annotation (
     preferredView="info",
-    version="0.1.0",
-    versionDate="2022-09-17",
+    version="0.2.0",
+    versionDate="2024-06-13",
+    dateModified = "2024-05-03 14:00:00Z",
+    revisionId="$Format:%h %ci$",
     uses(
       Modelica(version="4.0.0")),
     Documentation(
