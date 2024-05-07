@@ -509,7 +509,7 @@ The following improvements have been realized.
 <ul>
   <li>
     Functions defined in the protected section of record
-    <a href=\"modelica://Credibility.Table1D\">Table1D</a>.
+    <a href=\"modelica://Credibility.Table1D\">Table1D</a>
     moved into package
     <a href=\"modelica://Credibility.Utilities.Table1DScalings\">Utilities.Table1DScalings</a>.
   </li>
@@ -521,7 +521,7 @@ The following improvements have been realized.
   <li>
     Example
     <a href=\"modelica://Credibility.Examples.SimpleControlledDriveNonlinear.SimpleControlledDrive_virtualMeasurement\">SimpleControlledDrive_virtualMeasurement</a>:
-    Use &quot;fixedLocalSeed&quot; for noise generator to always get reproducible results.
+    Use &quot;fixedLocalSeed&quot; for noise generators to always get reproducible results.
   </li>
   <li>
     Enable multilingual descriptions and add German translation. See also Modelica Specification &ndash;
