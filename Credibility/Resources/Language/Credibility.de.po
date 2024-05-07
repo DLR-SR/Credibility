@@ -111,7 +111,7 @@ msgid "<html>\n"
 "</html>"
 msgstr "<html>\n"
 "<p>\n"
-"Kurzes Benutzerhandbuch von der kompletten Bibliothek.\n"
+"Kurzes Benutzerhandbuch der Bibliothek.\n"
 "</p>\n"
 "</html>"
 
