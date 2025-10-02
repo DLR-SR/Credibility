@@ -40,22 +40,26 @@ model TestRecords "Test of all records defined in the library"
     Credibility.Scalar scalar2(
       value(unit="kg") = 10.0,
       traceability(reference=""),
-      redeclare Credibility.Types.TruncatedNormalTolerance
-                                                     uncertainty(
+      redeclare Credibility.Types.TruncatedNormalTolerance uncertainty(
         source=Credibility.Types.SourceType.Estimated,
         unitValue="kg",
         nominal=10.0,
         relTol=0.2),
-      redeclare Credibility.Types.Calibration
-                                  calibration(
+      redeclare Credibility.Types.Calibration calibration(
         unitValue="kg",
         start=9,
         lower=5,
         upper=15))
       annotation (Placement(transformation(extent={{-20,20},{0,40}})));
-    Credibility.Table1D table1D(redeclare Credibility.Types.Interval1D uncertainty(lambda=0.1, table=[0,100,90,110; 1,120,115,125; 2,115,110,123; 3,100,90,110; 4,70,50,90; 5,-10,-38,18])) annotation (Placement(transformation(extent={{-60,-60},{-40,-40}})));
-
-    Credibility.Types.Interval1D interval1D(lambda=0.8, table=[0,2,1,3; 1,3,2,4; 4,4,3,5]) annotation (Placement(transformation(extent={{-90,-20},{-70,0}})));
+    Credibility.Table1D table1D(
+      redeclare Credibility.Types.Interval1D uncertainty(
+        lambda=0.1,
+        table=[0,100,90,110; 1,120,115,125; 2,115,110,123; 3,100,90,110; 4,70,50,90; 5,-10,-38,18]))
+      annotation (Placement(transformation(extent={{-60,-60},{-40,-40}})));
+    Credibility.Types.Interval1D interval1D(
+      lambda=0.8,
+      table=[0,2,1,3; 1,3,2,4; 4,4,3,5])
+      annotation (Placement(transformation(extent={{-90,-20},{-70,0}})));
     Credibility.Types.Uniform1D uniform1D(
       source=Credibility.Types.SourceType.Provided,
       lambda=-0.1,
