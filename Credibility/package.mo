@@ -1,16 +1,16 @@
 within ;
-package Credibility "Credibility Library - Version 0.2.0"
+package Credibility "Credibility Library"
   extends Modelica.Icons.Package;
   import Modelica.Units;
 
   annotation (
     preferredView="info",
-    version="0.2.0",
-    versionDate="2024-06-13",
-    dateModified = "2024-05-03 14:00:00Z",
+    version="0.3.0",
+    versionDate="2025-10-02",
+    dateModified = "2025-10-02 14:00:00Z",
     revisionId="$Format:%h %ci$",
     uses(
-      Modelica(version="4.0.0")),
+      Modelica(version="4.1.0")),
     Documentation(
       info="<html>
 <p>
@@ -47,5 +47,6 @@ For copyright and BSD 3-clause license, see
           points={{-56,-2},{-20,-56},{62,38},{48,52},{-20,-20},{-40,10},{-56,-2}},
           lineColor={0,140,72},
           fillColor={0,140,72},
-          fillPattern=FillPattern.Solid)}));
+          fillPattern=FillPattern.Solid)}),
+    conversion(noneFromVersion="0.2.0"));
 end Credibility;

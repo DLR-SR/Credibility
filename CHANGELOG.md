@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.3.0] - 2025-10-02
+
+- Uses the [Modelica Standard Library](https://github.com/modelica/ModelicaStandardLibrary) 4.1.0.
+
 ## [0.2.0] - 2024-06-13
 
 ### Added

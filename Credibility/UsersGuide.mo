@@ -502,6 +502,11 @@ is given in the next figure (from
 This section summarizes the changes that have been performed on the library.
 </p>
 
+<h4>Version 0.3.0 (2025-10-02)</h4>
+<p>
+Uses Modelica Standard Library 4.1.0. No other changes done.
+</p>
+
 <h4>Version 0.2.0 (2024-06-13)</h4>
 <p>
 The following improvements have been realized.
