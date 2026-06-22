@@ -637,7 +637,7 @@ the implementation of the library.
   M&uuml;nchener Stra&szlig;e 20<br>
   D-82234 We&szlig;ling<br>
   E-mail: <a href=\"mailto:sr-modelica@dlr.de\">sr-modelica@dlr.de</a><br>
-  Web:    <a href=\"https://rmc.dlr.de/sr/de/staff/martin.otter/\">rmc.dlr.de/sr/de/staff/Martin.Otter</a>
+  <!-- Web:    -->
 </blockquote>
  
  
