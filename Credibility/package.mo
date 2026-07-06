@@ -37,7 +37,7 @@ For copyright and BSD 3-clause license, see
       revisions="<html>
 <table border=\"0\" cellspacing=\"0\" cellpadding=\"0\">
   <tr><td valign=\"middle\"> <img width=\"72\" src=\"modelica://Credibility/Resources/Images/DLR_Signet_schwarz.png\" alt=\"Logo DLR\"></td>
-      <td valign=\"middle\"> <strong>Copyright &copy; DLR Institut für Systemdynamik und Regelungstechnik</strong> </td>
+      <td valign=\"middle\"> <strong>Copyright &copy; DLR Institut f&uuml;r Fahrzeugkonzepte</strong> </td>
   </tr>
  </table>
 <p>&nbsp;</p>
