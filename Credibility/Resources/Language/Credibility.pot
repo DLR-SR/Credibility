@@ -1,13 +1,13 @@
 # Template translatable strings for the Modelica library Credibility.
-# Copyright (C) 2024-2026
+# Copyright (C) 2024
 # This file is distributed under the same license as the Credibility library.
-# Jakub Tobolar <jakub.tobolar (at) dlr.de>, 2026.
+# Jakub Tobolar <jakub.tobolar (at) dlr.de>, 2023.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Credibility 0.3.0\n"
+"Project-Id-Version: Credibility 0.1.0\n"
 "Report-Msgid-Bugs-To: https://github.com/DLR-SR/Credibility/issues\n"
-"POT-Creation-Date: 2026-07-06 08:39+0000\n"
+"POT-Creation-Date: 2024-01-18 08:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgctxt "Credibility"
-msgid "Credibility Library"
+msgid "Credibility Library - Version 0.2.0"
 msgstr ""
 
 msgctxt "Credibility"
@@ -49,7 +49,7 @@ msgctxt "Credibility"
 msgid "<html>\n"
 "<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n"
 "  <tr><td valign=\"middle\"> <img width=\"72\" src=\"modelica://Credibility/Resources/Images/DLR_Signet_schwarz.png\" alt=\"Logo DLR\"></td>\n"
-"      <td valign=\"middle\"> <strong>Copyright &copy; DLR Institut f&uuml;r Fahrzeugkonzepte</strong> </td>\n"
+"      <td valign=\"middle\"> <strong>Copyright &copy; DLR Institut f\303\274r Systemdynamik und Regelungstechnik</strong> </td>\n"
 "  </tr>\n"
 " </table>\n"
 "<p>&nbsp;</p>\n"
@@ -713,11 +713,11 @@ msgid "<html>\n"
 "<blockquote>\n"
 "  Martin Otter (head of development)<br>\n"
 "  Deutsches Zentrum f&uuml;r Luft- und Raumfahrt e.V. (DLR)<br>\n"
-"  Institut f&uuml;r Fahrzeugkonzepte (FK)<br> \n"
+"  Institut f&uuml;r Systemdynamik und Regelungstechnik (SR)<br> \n"
 "  M&uuml;nchener Stra&szlig;e 20<br>\n"
 "  D-82234 We&szlig;ling<br>\n"
 "  E-mail: <a href=\"mailto:sr-modelica@dlr.de\">sr-modelica@dlr.de</a><br>\n"
-"  <!-- Web:    -->\n"
+"  Web:    <a href=\"https://rmc.dlr.de/sr/de/staff/martin.otter/\">rmc.dlr.de/sr/de/staff/Martin.Otter</a>\n"
 "</blockquote>\n"
 " \n"
 " \n"
@@ -774,7 +774,7 @@ msgid "<html>\n"
 "<h4>Licensor</h4>\n"
 "<p>\n"
 "Deutsches Zentrum f&uuml;r Luft- und Raumfahrt (DLR)<br>\n"
-"<a href=\"https://www.dlr.de/fk\">Institut f&uuml;r Fahrzeugkonzepte (FK)</a><br>\n"
+"<a href=\"https://www.dlr.de/sr/en\">Institut f&uuml;r Systemdynamik und Regelungstechnik (SR)</a><br>\n"
 "M&uuml;nchener Stra&szlig;e 20<br>\n"
 "D-82234 We&szlig;ling<br>\n"
 "Germany\n"
@@ -783,10 +783,7 @@ msgid "<html>\n"
 "<h4>Copyright</h4>\n"
 "<p>\n"
 "&copy; 2022-2024, DLR Institut f&uuml;r Systemdynamik und Regelungstechnik\n"
-"<br>\n"
-"&copy; 2025-2026, DLR Institut f&uuml;r Fahrzeugkonzepte\n"
-"<br>\n"
-"All rights reserved.\n"
+"<br>All rights reserved.\n"
 "</p>\n"
 "\n"
 "<h4><a name=\"3clauseBSD_License-outline\"></a>The 3-clause BSD License</h4>\n"
@@ -824,7 +821,7 @@ msgid "<html>\n"
 "<p>\n"
 "The above is the license, and is the standard\n"
 "<a href=\"https://opensource.org/licenses/BSD-3-Clause\">3-clause BSD-license</a>\n"
-"with DLR Institut f&uuml;r Fahrzeugkonzepte as copyright holder.\n"
+"with DLR Institut f&uuml;r Systemdynamik und Regelungstechnik as copyright holder.\n"
 "</p>\n"
 "</html>"
 msgstr ""
@@ -1201,6 +1198,10 @@ msgid "Connector of Real output signal"
 msgstr ""
 
 msgctxt "Credibility.Examples.SimpleControlledDriveNonlinear.SimpleControlledDrive_virtualMeasurement"
+msgid "Connector of Real output signal"
+msgstr ""
+
+msgctxt "Credibility.Examples.SimpleControlledDriveNonlinear.SimpleControlledDrive_virtualMeasurement"
 msgid "reference speed generation"
 msgstr ""
 
@@ -1391,7 +1392,15 @@ msgid "Spring stiffness [N.m.rad-1] (col. 2) vs. deflection angle delta_phi_rel 
 msgstr ""
 
 msgctxt "Credibility.Examples.SimpleControlledDriveNonlinear.Utilities.SpringNonLinear"
+msgid "Spring characteristics"
+msgstr ""
+
+msgctxt "Credibility.Examples.SimpleControlledDriveNonlinear.Utilities.SpringNonLinear"
 msgid "File name where table is stored"
+msgstr ""
+
+msgctxt "Credibility.Examples.SimpleControlledDriveNonlinear.Utilities.SpringNonLinear"
+msgid "Spring characteristics"
 msgstr ""
 
 msgctxt "Credibility.Examples.SimpleControlledDriveNonlinear.Utilities.SpringNonLinear"
@@ -1399,7 +1408,15 @@ msgid "Stiffness table name"
 msgstr ""
 
 msgctxt "Credibility.Examples.SimpleControlledDriveNonlinear.Utilities.SpringNonLinear"
+msgid "Spring characteristics"
+msgstr ""
+
+msgctxt "Credibility.Examples.SimpleControlledDriveNonlinear.Utilities.SpringNonLinear"
 msgid "Coefficient for scaling of torque"
+msgstr ""
+
+msgctxt "Credibility.Examples.SimpleControlledDriveNonlinear.Utilities.SpringNonLinear"
+msgid "Spring characteristics"
 msgstr ""
 
 msgctxt "Credibility.Examples.SimpleControlledDriveNonlinear.Utilities.SpringNonLinear"
@@ -1460,7 +1477,15 @@ msgid "Enumeration defining kind of uncertainty of scalar real parameter"
 msgstr ""
 
 msgctxt "Credibility.Types"
+msgid "e"
+msgstr ""
+
+msgctxt "Credibility.Types"
 msgid "Enumeration defining kind of uncertainty of 1D tables"
+msgstr ""
+
+msgctxt "Credibility.Types"
+msgid "e"
 msgstr ""
 
 msgctxt "Credibility.Types"
@@ -1568,6 +1593,10 @@ msgstr ""
 
 msgctxt "Credibility.Types.IntervalTolerance"
 msgid "Nominal value"
+msgstr ""
+
+msgctxt "Credibility.Types.IntervalTolerance"
+msgid "Limits: |value - nominal| <= max(absTol, relTol*|nominal|)"
 msgstr ""
 
 msgctxt "Credibility.Types.IntervalTolerance"
@@ -1696,6 +1725,10 @@ msgid "Limits: |value - nominal| <= max(absTol,relTol*|nominal|)"
 msgstr ""
 
 msgctxt "Credibility.Types.UniformTolerance"
+msgid "Limits: |value - nominal| <= max(absTol,relTol*|nominal|)"
+msgstr ""
+
+msgctxt "Credibility.Types.UniformTolerance"
 msgid "<html>\n"
 "<p>\n"
 "An uncertainty describing possible value of the uncertain scalar by a&nbsp;<em>uniform\n"
@@ -1813,6 +1846,10 @@ msgstr ""
 
 msgctxt "Credibility.Types.TruncatedNormalTolerance"
 msgid "Nominal value"
+msgstr ""
+
+msgctxt "Credibility.Types.TruncatedNormalTolerance"
+msgid "Limits: |value - nominal| <= max(absTol,relTol*|nominal|)"
 msgstr ""
 
 msgctxt "Credibility.Types.TruncatedNormalTolerance"
@@ -1985,6 +2022,10 @@ msgid "Dummy"
 msgstr ""
 
 msgctxt "Credibility.Types.Interval1D"
+msgid "Dummy"
+msgstr ""
+
+msgctxt "Credibility.Types.Interval1D"
 msgid "Table matrix (columns: 1 = input/grid; 2 = nominal values; 3 = lower limits; 4 = upper limits)"
 msgstr ""
 
@@ -2020,6 +2061,10 @@ msgstr ""
 
 msgctxt "Credibility.Types.IntervalTolerance1D"
 msgid "Table matrix (columns: 1 = input/grid; 2 = nominal values)"
+msgstr ""
+
+msgctxt "Credibility.Types.IntervalTolerance1D"
+msgid "Limits: |value[i] - table[i,2]| <= max(absTol,relTol*|table[i,2]|)"
 msgstr ""
 
 msgctxt "Credibility.Types.IntervalTolerance1D"
@@ -2371,6 +2416,10 @@ msgstr ""
 
 msgctxt "Credibility.Utilities.Table1DScalings.getTableLambdaByTolerance"
 msgid "Table uncertainty (x, nominal)"
+msgstr ""
+
+msgctxt "Credibility.Utilities.Table1DScalings.getTableLambdaByTolerance"
+msgid "Limits: |value[i] - uncertainty[i,2]| <= max(absTol,relTol*|uncertainty[i,2]|)"
 msgstr ""
 
 msgctxt "Credibility.Utilities.Table1DScalings.getTableLambdaByTolerance"
