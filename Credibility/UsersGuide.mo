@@ -497,7 +497,7 @@ is given in the next figure (from
 
     annotation (
       Documentation(
-        info="<html> 
+        info="<html>
 <p>
 This section summarizes the changes that have been performed on the library.
 </p>
