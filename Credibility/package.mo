@@ -9,6 +9,7 @@ package Credibility "Credibility Library"
     versionDate="2025-10-02",
     dateModified = "2025-10-02 14:00:00Z",
     revisionId="$Format:%h %ci$",
+    License="modelica://Credibility/Resources/Licenses/LICENSE_Credibility.txt",
     uses(
       Modelica(version="4.1.0")),
     Documentation(
