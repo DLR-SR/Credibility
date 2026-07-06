@@ -1,6 +1,7 @@
 BSD 3-Clause License
 
-Copyright (c) 2022-2024, DLR Institute of System Dynamics and Control
+Copyright (c) 2022-2024, DLR Institut fuer Systemdynamik und Regelungstechnik
+Copyright (c) 2025-2026, DLR Institut fuer Fahrzeugkonzepte
 
 All rights reserved.
 

@@ -633,7 +633,7 @@ the implementation of the library.
 <blockquote>
   Martin Otter (head of development)<br>
   Deutsches Zentrum f&uuml;r Luft- und Raumfahrt e.V. (DLR)<br>
-  Institut f&uuml;r Systemdynamik und Regelungstechnik (SR)<br> 
+  Institut f&uuml;r Fahrzeugkonzepte (FK)<br> 
   M&uuml;nchener Stra&szlig;e 20<br>
   D-82234 We&szlig;ling<br>
   E-mail: <a href=\"mailto:sr-modelica@dlr.de\">sr-modelica@dlr.de</a><br>
@@ -691,7 +691,7 @@ are licensed by <strong>DLR</strong> under the
 <h4>Licensor</h4>
 <p>
 Deutsches Zentrum f&uuml;r Luft- und Raumfahrt (DLR)<br>
-<a href=\"https://www.dlr.de/sr/en\">Institut f&uuml;r Systemdynamik und Regelungstechnik (SR)</a><br>
+<a href=\"https://www.dlr.de/fk\">Institut f&uuml;r Fahrzeugkonzepte (FK)</a><br>
 M&uuml;nchener Stra&szlig;e 20<br>
 D-82234 We&szlig;ling<br>
 Germany
@@ -700,7 +700,10 @@ Germany
 <h4>Copyright</h4>
 <p>
 &copy; 2022-2024, DLR Institut f&uuml;r Systemdynamik und Regelungstechnik
-<br>All rights reserved.
+<br>
+&copy; 2025-2026, DLR Institut f&uuml;r Fahrzeugkonzepte
+<br>
+All rights reserved.
 </p>
 
 <h4><a name=\"3clauseBSD_License-outline\"></a>The 3-clause BSD License</h4>
@@ -738,7 +741,7 @@ OF THE POSSIBILITY OF SUCH DAMAGE.
 <p>
 The above is the license, and is the standard
 <a href=\"https://opensource.org/licenses/BSD-3-Clause\">3-clause BSD-license</a>
-with DLR Institut f&uuml;r Systemdynamik und Regelungstechnik as copyright holder.
+with DLR Institut f&uuml;r Fahrzeugkonzepte as copyright holder.
 </p>
 </html>",
         revisions="<html>
