@@ -7,7 +7,8 @@ package Credibility "Credibility Library"
     preferredView="info",
     version="0.3.0",
     versionDate="2025-10-02",
-    dateModified = "2025-10-02 14:00:00Z",
+    versionBuild=2,
+    dateModified = "2026-07-06 13:30:00Z",
     revisionId="$Format:%h %ci$",
     License="modelica://Credibility/Resources/Licenses/LICENSE_Credibility.txt",
     uses(
