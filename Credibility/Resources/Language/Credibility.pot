@@ -571,7 +571,7 @@ msgid "Release notes"
 msgstr ""
 
 msgctxt "Credibility.UsersGuide.ReleaseNotes"
-msgid "<html> \n"
+msgid "<html>\n"
 "<p>\n"
 "This section summarizes the changes that have been performed on the library.\n"
 "</p>\n"
