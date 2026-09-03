@@ -22,7 +22,7 @@ The current approach has the drawback that data needs to be partially manually c
 
 ## Main Developers
 
-[Martin Otter](https://rmc.dlr.de/sr/en/staff/martin.otter/), Matthias Reiner, Jakub Tobolar,
+Martin Otter, Matthias Reiner, Jakub Tobolar,
 [DLR - Institute of System Dynamics and Control](https://www.dlr.de/sr/en).
 
 ## Acknowledgement
